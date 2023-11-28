@@ -1,0 +1,10 @@
+@media (max-width: 760px) {
+   .First-Box {
+       padding-top: 3em;
+       padding-right: 1em;
+  }
+  .Ab2-Img {
+    display: none;
+  }
+}
+
