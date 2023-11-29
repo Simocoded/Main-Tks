@@ -35,14 +35,14 @@ function About() {
         <h2 class="text-3xl font-bold text-[#c58f56]  mb-4">Our Mission</h2>
         <p class="text-base leading-relaxed font-serif">
           TKS Investment is the official Value-Added Reseller and Local Partner
-          to Market-leading Norwegian and Australian IT /AI and Green Technology
-          companies specialised in Energy, Oil & Gas, and Maritime; delivering
+          to Market-leading Norwegian , Malaysian and Australian IT /AI and Green Technology
+          companies specialised in Energy, Transport, and Maritime; delivering
           proven solutions to Governments, National and Private Companies in the
           Middle East, Africa and Asia markets.
           <br />{" "}
           <p className="mt-4">
             Driven by passion and experience - armed with working solutions -
-            supported by Norwegian finance and values We are In It to Change It:
+            supported by Norwegian finance and values We are In IT to Change IT:
             Think Smart - Think Science - Think People Think Green
           </p>
           <h2 class="text-3xl font-extrabold  mt-7 mb-4 text-[#c58f56] ">
@@ -54,9 +54,9 @@ function About() {
             and IT sectors in Norway, Middle East, Asia, Africa and globally,
             our strategic and hands-on services, unique patents and solutions
             meet the needs of all types and sizes of clients - from small
-            startups to large firms and governments - and deliver lasting
+            startups to large Co-operations and governments - and deliver lasting
             changes with measurable growth and profit. Supporting IT and
-            Consultancy companies/SMEs for Energy, Oil & Gas, and Maritime
+            Consultancy companies/SMEs for Energy, Transportation, and Maritime
             Sectors… ...Towards the Green Shift in the ME, Africa and Asia.
             {/* <div className="text-base font-serif m-3">
               <li>Sales Channel Management</li>
@@ -85,7 +85,7 @@ function About() {
           and Green Technology, TKS Investment has officially unveiled it’s
           presence in Dubai. With the resounding slogan{" "}
           <b>"Think Smart, Think Science".</b> TKS Investment is poised to lead
-          the charge in transforming the Energy, Maritime, Finance and Public
+          the charge in transforming the Energy, Transport,  Maritime, Finance and Public
           sectors across the Middle East, Africa, and Asia, under the astute
           guidance of its CEO and Chairman, Mr.Morten Tønnesen.
         </p>
@@ -143,7 +143,7 @@ function About() {
           </p>
         </p>
 
-        <h2 class="text-3xl underline-offset-8  font-bold text-[#c58f56] mt-4  mb-4">
+        <h2 class="text-2xl underline-offset-8  font-bold text-[#c58f56] mt-4  mb-4">
           <u> TKS Innovations: Pioneering Smart AI</u>
         </h2>
         <p class="text-base leading-relaxed font-serif">
@@ -152,7 +152,7 @@ function About() {
           solutions that revolutionize industries.
         </p>
 
-        <h2 class="text-3xl underline-offset-8  font-bold text-[#c58f56] mt-4  mb-4">
+        <h2 class="text-2xl underline-offset-8  font-bold text-[#c58f56] mt-4  mb-4">
           <u>
             TKS Integrated Technologies: Leading EV Technologies and Sustainable
             Energy
@@ -165,7 +165,7 @@ function About() {
           the industry
         </p>
 
-        <h2 class="text-3xl underline-offset-8  font-bold text-[#c58f56] mt-4  mb-4">
+        <h2 class="text-2xl underline-offset-8  font-bold text-[#c58f56] mt-4  mb-4">
           <u>TKS Academy & Services: Shaping the Future of Electric Mobility</u>
         </h2>
         <p class="text-base leading-relaxed font-serif">
@@ -179,8 +179,7 @@ function About() {
           leadership courses to the ever evolving business landscape.
           <p className="mt-4">
             In the grand tapestry of technological innovation and sustainable
-            solutions, TKS Investment, under the leadership of Mr. Morten
-            Tønnesen, stands as a beacon of hope and progress. With Dubai as its
+            solutions, TKS Investment,stands as a beacon of hope and progress. With Dubai as its
             launchpad, the company is set to be a catalyst for change ushering
             in a future where smart thinking and the power of science converge
             to create a sustainable and thriving world. Think smart, think
@@ -266,7 +265,7 @@ function About() {
               <div class="md:w-2/3 lg:w-1/3 md:px-4 xl:pl-16 mt-12 lg:mt-0">
                 <div class="sm:flex">
                   <div class="sm:flex-1">
-                    <h6 class="text-base font-medium text-black uppercase mb-2">
+                    <h6 class="text-2xl font-black  uppercase mb-2">
                       About
                     </h6>
                     <div>
@@ -276,68 +275,21 @@ function About() {
                       >
                         Company
                       </a>
-                      <a
-                        href="/"
-                        class="text-black font-base py-1 block hover:underline"
-                      >
-                        Culture
-                      </a>
+                    
                       <a
                         href="/"
                         class="text-black font-base py-1 block hover:underline"
                       >
                         Team
                       </a>
-                      <a
-                        href="/"
-                        class="text-black font-base py-1 block hover:underline"
-                      >
-                        Careers
-                      </a>
-                    </div>
-                  </div>
-                  <div class="sm:flex-1 mt-4 sm:mt-0">
-                    <h6 class="text-base font-medium text-black uppercase mb-2">
-                      What we offer
-                    </h6>
-                    <div>
-                      <a
-                        href="/"
-                        class="text-black font-base py-1 block hover:underline"
-                      >
-                        Competitive Salary
-                      </a>
-                      <a
-                        href="/"
-                        class="text-black font-base py-1 block hover:underline"
-                      >
-                        Stock Options or Equi
-                      </a>
-                      <a
-                        href="/"
-                        class="text-black font-base py-1 block hover:underline"
-                      >
-                        Health Insurance
-                      </a>
-                      <a
-                        href="/"
-                        class="text-black font-base py-1 block hover:underline"
-                      >
-                        Flexible Work Arrangements
-                      </a>
-                      <a
-                        href="/"
-                        class="text-black font-base py-1 block hover:underline"
-                      >
-                        Professional Development
-                      </a>
+                      
                     </div>
                   </div>
                 </div>
               </div>
 
               <div class="md:w-1/3 md:px-4 md:text-center mt-12 lg:mt-0">
-                <h5 class="text-lg text-black font-medium mb-4">
+                <h5 class=" text-black mb-4 text-lg font-black">
                   Explore our site
                 </h5>
                 <button class="bg-[#c58f56] text-black hover:bg-[#c58f56] rounded py-2 px-6 md:px-12 transition-colors duration-300">
