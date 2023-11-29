@@ -163,63 +163,17 @@ function Service() {
                       >
                         Company
                       </a>
-                      <a
-                        href="/"
-                        class="text-black font-base py-1 block hover:underline"
-                      >
-                        Culture
-                      </a>
+                   
                       <a
                         href="/"
                         class="text-black font-base py-1 block hover:underline"
                       >
                         Team
                       </a>
-                      <a
-                        href="/"
-                        class="text-black font-base py-1 block hover:underline"
-                      >
-                        Careers
-                      </a>
+                    
                     </div>
                   </div>
-                  <div class="sm:flex-1 mt-4 sm:mt-0">
-                    <h6 class="text-base font-medium text-black uppercase mb-2">
-                      What we offer
-                    </h6>
-                    <div>
-                      <a
-                        href="/"
-                        class="text-black font-base py-1 block hover:underline"
-                      >
-                        Competitive Salary
-                      </a>
-                      <a
-                        href="/"
-                        class="text-black font-base py-1 block hover:underline"
-                      >
-                        Stock Options or Equi
-                      </a>
-                      <a
-                        href="/"
-                        class="text-black font-base py-1 block hover:underline"
-                      >
-                        Health Insurance
-                      </a>
-                      <a
-                        href="/"
-                        class="text-black font-base py-1 block hover:underline"
-                      >
-                        Flexible Work Arrangements
-                      </a>
-                      <a
-                        href="/"
-                        class="text-black font-base py-1 block hover:underline"
-                      >
-                        Professional Development
-                      </a>
-                    </div>
-                  </div>
+      
                 </div>
               </div>
 
