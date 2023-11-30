@@ -1,8 +1,6 @@
 import Navbar from "../Navbar/Navbar";
 import Ab1 from "../../Images/bg10.png";
-import Bg15 from "../../Images/t1.png";
-import Bg16 from "../../Images/t2.png";
-import Bg17 from "../../Images/t3.png";
+
 // import S1 from "../../Images/s1.jpg";
 // import S2 from "../../Images/s2.jpg";
 // import S3 from "../../Images/s3.jpg";
@@ -196,9 +194,11 @@ function About() {
         <p class="text-lg">
           Have questions or inquiries? Feel free to reach out to us!
         </p>
-        <button class="mt-4 bg-[#c58f56]  text-white px-6 py-2 rounded-full hover:bg-blue-700">
+        <a href="/contact">
+        <button class="mt-4 bg-[#c58f56]  text-white px-6 py-2 rounded-full hover:bg-[#c58f56cb]">
           Contact
         </button>
+        </a>
       </div>
 
       <div className="">
