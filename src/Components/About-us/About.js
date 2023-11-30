@@ -187,50 +187,7 @@ function About() {
           </p>
         </p>
        
-        <h2 class="text-3xl text-[#c58f56] font-serif font-extrabold  mt-8 mb-4">
-          Our Team
-        </h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          <div class="bg-gray-200 p-4 rounded-lg shadow-md">
-            <img
-              src={Bg17}
-              alt="Team Member 1"
-              class="w-full h-32 object-cover rounded mb-4"
-            />
-            <h3 class="text-xl font-bold">Adam Khone</h3>
-            <p class="text-gray-600">CEO & Founder</p>
-            <p class="mt-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-          </div>
-
-          <div class="bg-gray-200 p-4 rounded-lg shadow-md">
-            <img
-              src={Bg16}
-              alt="Team Member 2"
-              class="w-full h-32 object-cover rounded mb-4"
-            />
-            <h3 class="text-xl font-bold">Annie Monaco</h3>
-            <p class="text-gray-600">Art Director</p>
-            <p class="mt-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-          </div>
-
-          <div class="bg-gray-200 p-4 rounded-lg shadow-md">
-            <img
-              src={Bg15}
-              alt="Team Member 3"
-              class="w-full h-32 object-cover rounded mb-4"
-            />
-            <h3 class="text-xl font-bold">Philip Henderson</h3>
-            <p class="text-gray-600">Designer</p>
-            <p class="mt-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-          </div>
         </div>
-      </div>
 
       <div class="bg-gray-300 p-8 text-center mt-8">
         <Link to="/contact">
