@@ -14,7 +14,7 @@ function Service() {
   return (
     <body className="bg-gray-100 font-sans mt-10 h-auto service-page">
       <header className="flex items-center justify-center text-black py-2">
-        <p className="text-4xl lg:text-5xl font-bold">What We Do ?</p>
+        <p className="text-4xl lg:text-5xl font-bold">What We Do </p>
       </header>
 
       <section
