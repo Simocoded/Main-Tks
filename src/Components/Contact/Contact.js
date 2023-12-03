@@ -46,15 +46,15 @@ function Contact() {
               </p>
               <br />
               <p>
-                With over 30 years experience , track record and net work, we
-                specialise in Energy- ,Oil&Gas-, Maritime, Government secors in
-                the Middle East-, Africa-, India- and Souh East Asian Markets.
+                With over 30 years experience , track record and network, we
+                specialise in Energy , Maritime, Government sectors in
+                the Middle East, Africa, India and South East Asian Markets.
               </p>
             </p>
             <p class="leading-relaxed text-base text-gray-900 mt-8">
               We use VeilMail.io to protect your email address from
-              spam.Innovated in Norway - brought to you by TKS ! Operational
-              headquarter in DIC Dubai, UA
+              spam. Innovated in Norway - brought to you by TKS's Operational
+              headquarter in DIC Dubai, UAE
             </p>
             <span class="inline-flex mt-6 justify-center sm:justify-start"></span>
           </div>
@@ -158,23 +158,23 @@ function Contact() {
               <div class="md:w-2/3 lg:w-1/3 md:px-4 xl:pl-16 mt-12 lg:mt-0">
                 <div class="sm:flex">
                   <div class="sm:flex-1">
-                    <h6 class="text-base font-medium text-black uppercase mb-2">
+                    <h6 class="lg:text-2xl text-base  font-medium text-[#c58f56] lg:font-bold uppercase mb-2">
                       About
                     </h6>
                     <div>
-                      <a
-                        href="/"
+                      <p
+                       
                         class="text-black font-base py-1 block hover:underline"
                       >
                         Company
-                      </a>
+                      </p>
                     
-                      <a
-                        href="/"
+                      <p
+                  
                         class="text-black font-base py-1 block hover:underline"
                       >
                         Team
-                      </a>
+                      </p>
                     
                     </div>
                   </div>
@@ -206,18 +206,18 @@ function Contact() {
                   </p>
                 </div>
                 <div class="md:flex-1 md:px-4 text-center md:text-right">
-                  <a
-                    href="/"
+                  <p
+                  
                     class="py-2 px-4 text-black inline-block hover:underline"
                   >
                     Terms of Service
-                  </a>
-                  <a
+                  </p>
+                  <p
                     href="/"
                     class="py-2 px-4 text-black inline-block hover:underline"
                   >
                     Privacy Policy
-                  </a>
+                  </p>
                 </div>
               </div>
             </div>

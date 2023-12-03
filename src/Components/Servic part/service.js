@@ -54,8 +54,8 @@ function Service() {
             <h5 className="lg:text-2xl md:text-lg  mb-2 pl-5 lg:pl-12 txt3 lg:font-bold">
               Leading EV Tech and <p className="lg:ml-1">Sustainable Energy</p>
             </h5>
-            <p className="text-gray-700 text-center">
-              TKS Integrated Technologies pioneers Electric Vehicle tech and sustainable energy,
+            <p className="text-gray-700 text-center ">
+              TKS Integrated Technologies pioneers electric vehicle and sustainable energy, carbon capture
               transforming the industry.
             </p>
           </div>

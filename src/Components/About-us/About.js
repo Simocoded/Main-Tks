@@ -33,18 +33,17 @@ function About() {
         <h2 class="text-3xl font-bold text-[#c58f56]  mb-4">Our Mission</h2>
         <p class="text-base leading-relaxed font-serif">
           TKS Investment is the official Value-Added Reseller and Local Partner
-          to Market-leading Norwegian , Malaysian and Australian IT /AI and Green Technology
-          companies specialised in Energy, Transport, and Maritime; delivering
-          proven solutions to Governments, National and Private Companies in the
-          Middle East, Africa and Asia markets.
+          to Market-leading Norwegian , Malaysian and Australian IT /AI and
+          Green Technology companies specialised in Energy, Transport, and
+          Maritime; delivering proven solutions to Governments, National and
+          Private Companies in the Middle East, Africa and Asia markets.
           <br />{" "}
-          <p className="mt-4">
+          <p className="mt-4 lg:mt-2">
             Driven by passion and experience - armed with working solutions -
-            supported by Norwegian finance and values We are In IT to Change IT:
-            Think Smart - Think Science - Think People Think Green
+            supported by Norwegian finance and values We are In IT to Change IT
           </p>
           <h2 class="text-3xl font-extrabold  mt-7 mb-4 text-[#c58f56] ">
-            <u> THINK SMART - THINK SCIENCE – THINK PEOPLE</u>
+          Think Smart - Think Science - Think People Think Green
           </h2>
           <p className="font-normal font-serif  mt-2">
             {" "}
@@ -52,8 +51,8 @@ function About() {
             and IT sectors in Norway, Middle East, Asia, Africa and globally,
             our strategic and hands-on services, unique patents and solutions
             meet the needs of all types and sizes of clients - from small
-            startups to large Co-operations and governments - and deliver lasting
-            changes with measurable growth and profit. Supporting IT and
+            startups to large Co-operations and governments - and deliver
+            lasting changes with measurable growth and profit. Supporting IT and
             Consultancy companies/SMEs for Energy, Transportation, and Maritime
             Sectors… ...Towards the Green Shift in the ME, Africa and Asia.
             {/* <div className="text-base font-serif m-3">
@@ -83,9 +82,9 @@ function About() {
           and Green Technology, TKS Investment has officially unveiled it’s
           presence in Dubai. With the resounding slogan{" "}
           <b>"Think Smart, Think Science".</b> TKS Investment is poised to lead
-          the charge in transforming the Energy, Transport,  Maritime, Finance and Public
-          sectors across the Middle East, Africa, and Asia, under the astute
-          guidance of its CEO and Chairman, Mr.Morten Tønnesen.
+          the charge in transforming the Energy, Transport, Maritime, Finance
+          and Public sectors across the Middle East, Africa, and Asia, under the
+          astute guidance of its CEO and Chairman, Mr.Morten Tønnesen.
         </p>
 
         {/* <h2 class="text-3xl underline-offset-8  font-bold text-[#c58f56] mt-4  mb-4">
@@ -177,15 +176,15 @@ function About() {
           leadership courses to the ever evolving business landscape.
           <p className="mt-4">
             In the grand tapestry of technological innovation and sustainable
-            solutions, TKS Investment,stands as a beacon of hope and progress. With Dubai as its
-            launchpad, the company is set to be a catalyst for change ushering
-            in a future where smart thinking and the power of science converge
-            to create a sustainable and thriving world. Think smart, think
-            science – with TKS Investment, the future has never looked brighter.
+            solutions, TKS Investment,stands as a beacon of hope and progress.
+            With Dubai as its launchpad, the company is set to be a catalyst for
+            change ushering in a future where smart thinking and the power of
+            science converge to create a sustainable and thriving world. Think
+            smart, think science – with TKS Investment, the future has never
+            looked brighter.
           </p>
         </p>
-       
-        </div>
+      </div>
 
       <div class="bg-gray-300 p-8 text-center mt-8">
         <Link to="/contact">
@@ -195,9 +194,9 @@ function About() {
           Have questions or inquiries? Feel free to reach out to us!
         </p>
         <a href="/contact">
-        <button class="mt-4 bg-[#c58f56]  text-white px-6 py-2 rounded-full hover:bg-[#c58f56cb]">
-          Contact
-        </button>
+          <button class="mt-4 bg-[#c58f56]  text-white px-6 py-2 rounded-full hover:bg-[#c58f56cb]">
+            Contact
+          </button>
         </a>
       </div>
 
@@ -222,36 +221,41 @@ function About() {
               <div class="md:w-2/3 lg:w-1/3 md:px-4 xl:pl-16 mt-12 lg:mt-0">
                 <div class="sm:flex">
                   <div class="sm:flex-1">
-                    <h6 class="text-2xl font-black  uppercase mb-2">
+                    <h6 class="lg:text-2xl text-base  font-medium text-[#c58f56] lg:font-bold uppercase mb-2">
                       About
                     </h6>
                     <div>
-                      <a
-                        href="/"
+                      <p
+                       
                         class="text-black font-base py-1 block hover:underline"
                       >
                         Company
-                      </a>
+                      </p>
                     
-                      <a
-                        href="/"
+                      <p
+                  
                         class="text-black font-base py-1 block hover:underline"
                       >
                         Team
-                      </a>
-                      
+                      </p>
+                    
                     </div>
                   </div>
-                </div>
+                  
               </div>
+            </div>
+
 
               <div class="md:w-1/3 md:px-4 md:text-center mt-12 lg:mt-0">
-                <h5 class=" text-black mb-4 text-lg font-black">
+                <h5 class="text-lg text-black font-medium mb-4">
                   Explore our site
                 </h5>
-                <button class="bg-[#c58f56] text-black hover:bg-[#c58f56] rounded py-2 px-6 md:px-12 transition-colors duration-300">
-                  Explore
-                </button>
+
+                <Link to={"/App"}>
+                  <button class="bg-[#c58f56] text-black hover:bg-[#c58f56] rounded py-2 px-6 md:px-12 transition-colors duration-300">
+                    Explore
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -265,18 +269,18 @@ function About() {
                   </p>
                 </div>
                 <div class="md:flex-1 md:px-4 text-center md:text-right">
-                  <a
-                    href="/"
+                  <p
+                  
                     class="py-2 px-4 text-black inline-block hover:underline"
                   >
                     Terms of Service
-                  </a>
-                  <a
+                  </p>
+                  <p
                     href="/"
                     class="py-2 px-4 text-black inline-block hover:underline"
                   >
                     Privacy Policy
-                  </a>
+                  </p>
                 </div>
               </div>
             </div>

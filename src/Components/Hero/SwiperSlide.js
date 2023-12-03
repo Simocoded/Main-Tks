@@ -111,12 +111,15 @@ function HeroSlider({ heroSlider }) {
                     >
                       {item.title}
                     </motion.h2>
+
+                    <a href="/contact">
                     <motion.button
                       className="bg-white rounded-lg lg:relative lg:bottom-32 py-3 lg:py-5 w-[10rem] lg:w-[12rem] xl:w-[15rem] text-base lg:text-xl font-medium mt-3 lg:mt-0"
                       variants={textVariants}
                     >
                       Contact Us
                     </motion.button>
+                    </a>
                   </motion.div>
                 </motion.div>
               </div>
