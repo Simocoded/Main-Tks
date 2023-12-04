@@ -19,7 +19,7 @@ function Service() {
             TKS Investment FZ LLC is the official Value-Added Reseller and Local
             Service Partner to Market- <br />
             leading Norwegian, Malaysian, Australian, and UAE Principals
-            specialised in Energy, Oil&Gas, <br /> Maritime, IT, and Executive
+            specialised in Energy, <br/> Maritime, IT, and Executive
             Consultancy Services, delivering proven solutions to Governments,
             <br /> National and Private Companies in the Middle East, India,
             Africa, and Asia Pacific.
@@ -85,7 +85,7 @@ function Service() {
           <p className="lg:pt-2">
             Carbon Capture Solutions
             <br />
-            Geothermal Energy Charging EV vehicles and vessels.
+            Geothermal Energy <br/> Charging EV vehicles and vessels.
           </p>
         </div>
 
@@ -100,9 +100,9 @@ function Service() {
           </div>
           <p className="font-bold"> TKS Innovations</p>
           <p className="lg:pt-2">
-            Smart AI Solutions for,Energy,Medical,
+            Smart AI Solutions for Energy, Medical,
             <br />
-            Financial-and Governments / Municipalities
+            Financial sectors and Governments / Municipalities
           </p>
         </div>
 

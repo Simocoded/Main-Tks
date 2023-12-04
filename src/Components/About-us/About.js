@@ -51,7 +51,7 @@ function About() {
             and IT sectors in Norway, Middle East, Asia, Africa and globally,
             our strategic and hands-on services, unique patents and solutions
             meet the needs of all types and sizes of clients - from small
-            startups to large Co-operations and governments - and deliver
+            startups to large corporations and governments - and deliver
             lasting changes with measurable growth and profit. Supporting IT and
             Consultancy companies/SMEs for Energy, Transportation, and Maritime
             Sectors… ...Towards the Green Shift in the ME, Africa and Asia.
@@ -71,11 +71,11 @@ function About() {
           </p>
         </p>
         <h2 class="text-3xl underline-offset-8  font-bold text-[#c58f56] mt-4  mb-4">
-          <u>
+        
             {" "}
             Pioneering the Future: TKS Investment Launches in Dubai with
             Visionary Leadership from Mr. Morten Tønnesen
-          </u>
+          
         </h2>
         <p class="text-base leading-relaxed font-serif">
           In a groundbreaking move set to reshape the landscape of Energy, AI,
@@ -84,7 +84,7 @@ function About() {
           <b>"Think Smart, Think Science".</b> TKS Investment is poised to lead
           the charge in transforming the Energy, Transport, Maritime, Finance
           and Public sectors across the Middle East, Africa, and Asia, under the
-          astute guidance of its CEO and Chairman, Mr.Morten Tønnesen.
+          astute guidance of its CEO and Chairman, Mr. Morten Tønnesen.
         </p>
 
         {/* <h2 class="text-3xl underline-offset-8  font-bold text-[#c58f56] mt-4  mb-4">
@@ -124,7 +124,7 @@ function About() {
         </p> */}
 
         <h2 class="text-3xl underline-offset-8  font-bold text-[#c58f56] mt-4  mb-4">
-          <u>A Triumph of Innovation and Proven Solutions</u>
+          A Triumph of Innovation and Proven Solutions
         </h2>
         <p class="text-base leading-relaxed font-serif">
           Under the visionary leadership of Mr. Morten Tønnesen, TKS Investment
@@ -141,19 +141,19 @@ function About() {
         </p>
 
         <h2 class="text-2xl underline-offset-8  font-bold text-[#c58f56] mt-4  mb-4">
-          <u> TKS Innovations: Pioneering Smart AI</u>
+           TKS Innovations: Pioneering Smart AI
         </h2>
         <p class="text-base leading-relaxed font-serif">
-          Under Mr. Tønnesen leadership, TKS Innovations is the hub of
-          cutting-edge Artificial Intelligence, <br /> crafting intelligent
+          Under Mr. Tønnesen's leadership, TKS Innovations is the hub of
+          cutting-edge Artificial Intelligence, crafting intelligent
           solutions that revolutionize industries.
         </p>
 
         <h2 class="text-2xl underline-offset-8  font-bold text-[#c58f56] mt-4  mb-4">
-          <u>
+      
             TKS Integrated Technologies: Leading EV Technologies and Sustainable
             Energy
-          </u>
+          
         </h2>
         <p class="text-base leading-relaxed font-serif">
           TKS Integrated Technologies, under the astute guidance of Dr. Chris
@@ -163,10 +163,10 @@ function About() {
         </p>
 
         <h2 class="text-2xl underline-offset-8  font-bold text-[#c58f56] mt-4  mb-4">
-          <u>TKS Academy & Services: Shaping the Future of Electric Mobility</u>
+          TKS Academy & Services: Shaping the Future of Electric Mobility
         </h2>
         <p class="text-base leading-relaxed font-serif">
-          TKS Academy & Services, is offering a comprehensive approach to the
+          TKS Academy & Services offers a comprehensive approach to the
           academy, committed to equipping the future generation of EV
           technicians, technologists and consultants with necessary tools and
           resources, the academy will play a pivotal role in championing and
