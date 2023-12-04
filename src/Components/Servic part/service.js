@@ -29,7 +29,7 @@ function Service() {
             </h5>
             <p className="text-gray-700 text-center lg:relative lg:bottom-4">
               TKS Innovations is the hub of cutting-edge Artificial Intelligence,
-              crafting intelligent solutions that revolutionize industries.
+              crafting intelligent solutions that revolutionise industries.
             </p>
           </div>
         </div>
