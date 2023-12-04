@@ -29,7 +29,7 @@ function Service() {
             </h5>
             <p className="text-gray-700 text-center lg:relative lg:bottom-4">
               TKS Innovations is the hub of cutting-edge Artificial Intelligence,
-              crafting intelligent solutions that revolutionise industries.
+              crafting intelligent solutions that revolutionise industries
             </p>
           </div>
         </div>
@@ -43,7 +43,7 @@ function Service() {
             <p className="text-gray-700 text-center">
               TKS Academy & Services empowers the next-gen EV workforce with
               essential skills. Our hub offers diverse business management
-              courses for the evolving landscape.
+              courses for the evolving landscape
             </p>
           </div>
         </div>
@@ -56,7 +56,7 @@ function Service() {
             </h5>
             <p className="text-gray-700 text-center ">
               TKS Integrated Technologies pioneers electric vehicle and sustainable energy, carbon capture
-              transforming the industry.
+              transforming the industry
             </p>
           </div>
         </div>
