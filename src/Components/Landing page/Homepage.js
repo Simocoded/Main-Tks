@@ -1,6 +1,5 @@
 import React from "react";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import img1 from "../../Images/bg1.jpg";
 import img2 from "../../Images/bg2.jpg";
 import img3 from "../../Images/bg3.jpg";
@@ -62,14 +61,14 @@ function Homepage() {
             the Middle East, Africa, India, and Southeast Asia.
           </p>
 
-          <Link to="/about" className="nav-item">
+          <a href="/about">
             <button
               className="bg-[#c58f56] mb-2  text-white font-bold py-2 px-4 rounded md:mb-2"
               data-aos="fade-up"
             >
               Read More
             </button>
-          </Link>
+          </a>
         </div>
 
         <div className="w-full md:w-1/2 hidden md:flex flex-wrap justify-around mt-4 Image-Box">

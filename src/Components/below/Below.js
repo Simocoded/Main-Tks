@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import bg from "../../Images/bg.jpg";
 import "../../Components/Main.css";
 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -37,14 +37,17 @@ function Below() {
           energy efficiency, and fostering the transition to renewable energy.
         </p>
 
-        <Link to={"/about"}>
+        <a href="/about">
           <button
             className="bg-[#c58f56] text-white font-bold py-2 px-4 rounded"
             data-aos="fade-left"
           >
             Learn More
           </button>
-        </Link>
+        </a>
+        {/* <Link to={"/about"}> */}
+
+        {/* </Link> */}
       </div>
     </div>
   );
