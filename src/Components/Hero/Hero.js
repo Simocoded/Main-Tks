@@ -30,7 +30,7 @@ function Hero() {
       video: VidOne,
   },
     {
-      title: "Unleash the power of AI to automate tasks, Improve efficiency, and make better decisions.",
+      title: "Unleash the power of AI to automate tasks, improve efficiency, and make better decisions.",
       body: "The Next Frontier of Business ",
       span: "",
       video: VidTwo,

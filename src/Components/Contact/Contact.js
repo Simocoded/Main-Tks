@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import emailjs from "emailjs-com";
 import Navbar from "../Navbar/Navbar";
 import Ab1 from "../../Images/bg10.png";
 import { Link } from "react-router-dom";
@@ -7,36 +8,27 @@ function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const Sendmail = async () => {
-    if (name.trim() !== "" && email.trim() !== "" && message.trim() !== "") {
-      const formspreeEndpoint = "https://formspree.io/samodgafar@gmail.com";
+  const formRef = useRef();
 
-      const data = {
-        name,
-        email,
-        message,
+  const sendMail = async () => {
+    if (name.trim() !== "" && email.trim() !== "" && message.trim() !== "") {
+      const templateParams = {
+        to_email: "samodgafar@gmail.com",
+        from_name: name,
+        from_email: email,
+        message: message,
       };
 
-      try {
-        const response = await fetch(formspreeEndpoint, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(data),
-        });
+      console.log("Sending EmailJS request with templateParams:", templateParams);
 
-        console.log("Formspree Response:", response);
-
-        if (response.ok) {
+      emailjs.sendForm('service_k20ghwr', 'template_vaoq0ya', formRef.current, 'Fje4B-rinG3mQChIV')
+        .then((result) => {
+          console.log(result.text);
           alert("Message sent successfully!");
-        } else {
+        }, (error) => {
+          console.log(error.text);
           alert("Error sending message. Please try again.");
-        }
-      } catch (error) {
-        console.error("Error sending message:", error);
-        alert("Error sending message. Please try again.");
-      }
+        });
     } else {
       alert("Please fill in all fields before sending the message.");
     }
@@ -66,24 +58,20 @@ function Contact() {
               Get In Touch
             </h3>
             <p className="leading-relaxed text-base text-gray-900">
-              <p>
-                TKS Investment is the Value Added Reseller and Local Business
-                Partner to Market leading Norwegian and Australian IT/AI and
-                Green Technology solutions providers.
-              </p>
+              TKS Investment is the Value Added Reseller and Local Business
+              Partner to Market leading Norwegian and Australian IT/AI and Green
+              Technology solutions providers.
               <br />
-              <p>
-                With over 30 years of experience, a track record, and a network,
-                we specialize in Energy, Maritime, Government sectors in the
-                Middle East, Africa, India, and South East Asian Markets.
-              </p>
+              <br />
+              With over 30 years of experience, a track record, and a network,
+              we specialize in Energy, Maritime, Government sectors in the
+              Middle East, Africa, India, and South East Asian Markets.
             </p>
             <p className="leading-relaxed text-base text-gray-900 mt-8">
               We use VeilMail.io to protect your email address from spam.
               Innovated in Norway - brought to you by TKS's Operational
               headquarters in DIC Dubai, UAE
             </p>
-            <span className="inline-flex mt-6 justify-center sm:justify-start"></span>
           </div>
           <div className="md:w-2/3 w-full mt-10 md:mt-0 md:pl-28">
             <h3 className="text-4xl text-[#c58f56] sm:text-4xl font-bold title-font mb-4">
@@ -92,9 +80,10 @@ function Contact() {
             <form
               method="post"
               id="submit-contact-form"
+              ref={formRef}
               onSubmit={(e) => {
                 e.preventDefault();
-                Sendmail();
+                sendMail();
               }}
             >
               <div className="p-2 w-full">
@@ -163,6 +152,7 @@ function Contact() {
         </div>
       </section>
 
+      {/* FOOTER */}
       <div className="">
         <div class="footer-2 bg-gray-100 mt-2 pt-6 md:pt-12 ">
           <div class="container px-4 mx-auto">
