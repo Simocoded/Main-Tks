@@ -81,7 +81,7 @@ function About() {
           In a groundbreaking move set to reshape the landscape of Energy, AI,
           and Green Technology, TKS Investment has officially unveiled it’s
           presence in Dubai. With the resounding slogan{" "}
-          <b>"Think Smart, Think Science".</b> TKS Investment is poised to lead
+          <b>"Think Smart. Think Science".</b> TKS Investment is poised to lead
           the charge in transforming the Energy, Transport, Maritime, Finance
           and Public sectors across the Middle East, Africa, and Asia, under the
           astute guidance of its CEO and Chairman, Mr. Morten Tønnesen.
