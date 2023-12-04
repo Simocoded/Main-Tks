@@ -2,14 +2,41 @@ import React, { useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import Ab1 from "../../Images/bg10.png";
 import { Link } from "react-router-dom";
+
 function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-
-  const Sendmail = () => {
+  const Sendmail = async () => {
     if (name.trim() !== "" && email.trim() !== "" && message.trim() !== "") {
-      alert("Message sent successfully!");
+      const formspreeEndpoint = "https://formspree.io/samodgafar@gmail.com";
+
+      const data = {
+        name,
+        email,
+        message,
+      };
+
+      try {
+        const response = await fetch(formspreeEndpoint, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        });
+
+        console.log("Formspree Response:", response);
+
+        if (response.ok) {
+          alert("Message sent successfully!");
+        } else {
+          alert("Error sending message. Please try again.");
+        }
+      } catch (error) {
+        console.error("Error sending message:", error);
+        alert("Error sending message. Please try again.");
+      }
     } else {
       alert("Please fill in all fields before sending the message.");
     }
@@ -29,16 +56,16 @@ function Contact() {
         </div>
       </div>
 
-      <section class="text-gray-600 body-font bg-gray-100 mt-5">
+      <section className="text-gray-600 body-font bg-gray-100 mt-5">
         <div
-          class="container flex flex-col md:flex-row lg:max-w-5xl w-full px-5 py-12 md:py-24 mx-auto section"
+          className="container flex flex-col md:flex-row lg:max-w-5xl w-full px-5 py-12 md:py-24 mx-auto section"
           id="contact-form"
         >
-          <div class="md:w-1/3 w-full">
-            <h3 class="text-4xl text-[#c58f56] sm:text-4xl font-bold title-font mb-4">
+          <div className="md:w-1/3 w-full">
+            <h3 className="text-4xl text-[#c58f56] sm:text-4xl font-bold title-font mb-4">
               Get In Touch
             </h3>
-            <p class="leading-relaxed text-base text-gray-900">
+            <p className="leading-relaxed text-base text-gray-900">
               <p>
                 TKS Investment is the Value Added Reseller and Local Business
                 Partner to Market leading Norwegian and Australian IT/AI and
@@ -46,20 +73,20 @@ function Contact() {
               </p>
               <br />
               <p>
-                With over 30 years experience , track record and network, we
-                specialise in Energy , Maritime, Government sectors in
-                the Middle East, Africa, India and South East Asian Markets.
+                With over 30 years of experience, a track record, and a network,
+                we specialize in Energy, Maritime, Government sectors in the
+                Middle East, Africa, India, and South East Asian Markets.
               </p>
             </p>
-            <p class="leading-relaxed text-base text-gray-900 mt-8">
-              We use VeilMail.io to protect your email address from
-              spam. Innovated in Norway - brought to you by TKS's Operational
-              headquarter in DIC Dubai, UAE
+            <p className="leading-relaxed text-base text-gray-900 mt-8">
+              We use VeilMail.io to protect your email address from spam.
+              Innovated in Norway - brought to you by TKS's Operational
+              headquarters in DIC Dubai, UAE
             </p>
-            <span class="inline-flex mt-6 justify-center sm:justify-start"></span>
+            <span className="inline-flex mt-6 justify-center sm:justify-start"></span>
           </div>
-          <div class="md:w-2/3 w-full mt-10 md:mt-0 md:pl-28">
-            <h3 class="text-4xl text-[#c58f56] sm:text-4xl font-bold title-font mb-4">
+          <div className="md:w-2/3 w-full mt-10 md:mt-0 md:pl-28">
+            <h3 className="text-4xl text-[#c58f56] sm:text-4xl font-bold title-font mb-4">
               Contact Us
             </h3>
             <form
@@ -70,11 +97,11 @@ function Contact() {
                 Sendmail();
               }}
             >
-              <div class="p-2 w-full">
-                <div class="relative">
+              <div className="p-2 w-full">
+                <div className="relative">
                   <label
-                    for="name"
-                    class="leading-7 py-4 text-lg text-gray-900"
+                    htmlFor="name"
+                    className="leading-7 py-4 text-lg text-gray-900"
                   >
                     Your Name
                   </label>
@@ -83,16 +110,16 @@ function Contact() {
                     id="name"
                     name="name"
                     required
-                    class="w-full bg-white rounded border border-gray-400 focus:border-[#c58f56] focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-900 py-1 px-1 leading-8 transition-colors duration-200 ease-in-out "
+                    className="w-full bg-white rounded border border-gray-400 focus:border-[#c58f56] focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-900 py-1 px-1 leading-8 transition-colors duration-200 ease-in-out "
                     onChange={(e) => setName(e.target.value)}
                   />
                 </div>
               </div>
-              <div class="p-2 w-full">
-                <div class="relative">
+              <div className="p-2 w-full">
+                <div className="relative">
                   <label
-                    for="email"
-                    class="leading-7 py-4 text-lg text-gray-900"
+                    htmlFor="email"
+                    className="leading-7 py-4 text-lg text-gray-900"
                   >
                     Your Email
                   </label>
@@ -101,16 +128,16 @@ function Contact() {
                     id="email"
                     name="email"
                     required
-                    class="w-full bg-white rounded border border-gray-400 focus:border-[#c58f56] focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-900 py-1 px-1 leading-8 transition-colors duration-200 ease-in-out "
+                    className="w-full bg-white rounded border border-gray-400 focus:border-[#c58f56] focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-900 py-1 px-1 leading-8 transition-colors duration-200 ease-in-out "
                     onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
               </div>
-              <div class="p-2 w-full">
-                <div class="relative">
+              <div className="p-2 w-full">
+                <div className="relative">
                   <label
-                    for="message"
-                    class="leading-7 py-4 text-lg text-gray-900"
+                    htmlFor="message"
+                    className="leading-7 py-4 text-lg text-gray-900"
                   >
                     Your Message
                   </label>
@@ -118,16 +145,15 @@ function Contact() {
                     id="message"
                     name="message"
                     required
-                    class="w-full bg-white rounded border border-gray-400 focus:border-[#c58f56] focus:bg-white focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-900 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out "
+                    className="w-full bg-white rounded border border-gray-400 focus:border-[#c58f56] focus:bg-white focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-900 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out "
                     onChange={(e) => setMessage(e.target.value)}
                   ></textarea>
                 </div>
               </div>
-              <div class="p-2 w-full">
+              <div className="p-2 w-full">
                 <button
-                  onClick={Sendmail}
-                  type=""
-                  class="flex text-white bg-gray-900 border-0 py-4 px-6 focus:outline-none hover:bg-[#c58f56] rounded text-base font-bold shadow-lg mx-0 flex-col text-center"
+                  type="submit"
+                  className="flex text-white bg-gray-900 border-0 py-4 px-6 focus:outline-none hover:bg-[#c58f56] rounded text-base font-bold shadow-lg mx-0 flex-col text-center"
                 >
                   Send Message ✉
                 </button>
@@ -162,26 +188,17 @@ function Contact() {
                       About
                     </h6>
                     <div>
-                      <p
-                       
-                        class="text-black font-base py-1 block hover:underline"
-                      >
+                      <p class="text-black font-base py-1 block hover:underline">
                         Company
                       </p>
-                    
-                      <p
-                  
-                        class="text-black font-base py-1 block hover:underline"
-                      >
+
+                      <p class="text-black font-base py-1 block hover:underline">
                         Team
                       </p>
-                    
                     </div>
                   </div>
-                  
+                </div>
               </div>
-            </div>
-
 
               <div class="md:w-1/3 md:px-4 md:text-center mt-12 lg:mt-0">
                 <h5 class="text-lg text-black font-medium mb-4">
@@ -206,10 +223,7 @@ function Contact() {
                   </p>
                 </div>
                 <div class="md:flex-1 md:px-4 text-center md:text-right">
-                  <p
-                  
-                    class="py-2 px-4 text-black inline-block hover:underline"
-                  >
+                  <p class="py-2 px-4 text-black inline-block hover:underline">
                     Terms of Service
                   </p>
                   <p

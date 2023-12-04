@@ -16,7 +16,7 @@ function Hero() {
 
   const HERO_SLIDE =  [
     {
-      title: "IT/AI and Green technology solutions for the middle east, africa, and asia",
+      title: "IT/AI and Green technology solutions for the Middle East, Africa, and Asia",
       body: "Welcome to ",
       span: "tks investment",
       video: Vid,
