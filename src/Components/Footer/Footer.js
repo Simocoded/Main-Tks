@@ -2,7 +2,7 @@ import "../../Components/Main.css";
 function Footer() {
   return (
     <div className="foot">
-      <div class="footer-2 bg-gray-100 pt-6 md:pt-12">
+      <div class="footer-2 bg-gray-100 pt-6 md:pt-12 lg:mb-[-15em]">
         <div class="container px-4 mx-auto">
           <div class="md:flex md:flex-wrap md:-mx-4 py-6 md:pb-12">
             <div class="footer-info lg:w-1/3 md:px-4">
